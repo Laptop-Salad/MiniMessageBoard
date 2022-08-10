@@ -5,12 +5,12 @@ const messages = [
   {
     text: "Morning Bartholomew",
     user: "PhiladelphiaGarlicAndHerbs",
-    added: new Date()
+    added: new Date(),
   },
   {
     text: "Morning, Lovely weather isn't it?",
     user: "Bartholomew",
-    added: new Date()
+    added: new Date(),
   }
 ]
 
