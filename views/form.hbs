@@ -1,13 +1,18 @@
-<h1>{{title}}</h1>
+<!DOCTYPE html>
+<head>
+    <title>{{title}}</title>
+    <link rel='stylesheet' href='/stylesheets/index.css' />
+</head>
+<body>
+    <h1 class="navbar">{{title}}</h1>
 
-<form method="POST" action="/new">
+    <form class="flex-container" method="POST" action="/new">
 
-    <label for="name">Username</label>
-    <input type="text" id="username" name="username">
+        <input type="text" id="username" name="username" placeholder="Name">
 
-    <label for="messageText">Text</label>
-    <input type="text" id="messageText" name="messageText">
+        <input type="text" id="messageText" name="messageText" placeholder="Text">
 
-    <input type="submit" value="Submit">
+        <input type="submit" value="Submit">
 
-</form>
+    </form>
+</body>

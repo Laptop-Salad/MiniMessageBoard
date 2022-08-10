@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    background-color: ghostwhite;
+    width: 75vw;
+    padding: 10px;
+    margin: 1%;
+    border-radius: 10px;
+    color: black;
+}
+
+form > * {
+    margin: 1%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+
+.message {
+    background-color: grey;
+    width: 75vw;
+    padding: 10px;
+    margin: 1%;
+    border-radius: 10px;
+}
+
+.message-text {color: white}
+
+.message-info {color: gainsboro}
+
+.navbar {
+    display: flex;
+    background: gainsboro;
+    height: 5vw;
+    align-items: center;
+    justify-content: center;
+}

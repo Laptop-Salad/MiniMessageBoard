@@ -1,6 +1,18 @@
-<h1>{{title}}</h1>
-{{#each messages}}
-    <p>{{text}}</p>
-    <p>Sent By {{user}} on {{added}}</p>
-{{/each}}
+<!DOCTYPE html> 
+<head>
+    <title>{{title}}</title>
+    <link rel='stylesheet' href='/stylesheets/index.css' />
+</head>
+<body>
+    <h1 class="navbar">{{title}}</h1>
 
+    <div class="flex-container">
+        <a href="/new">New Message</a>
+        {{#each messages}}
+            <div class="message">
+                <p class="message-text">{{text}}</p>
+                <p class="message-info">Sent By {{user}} on {{added}}</p>
+            </div>
+        {{/each}}
+    </div>
+</body>
